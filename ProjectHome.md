@@ -1,0 +1,4 @@
+This site is dedicated to our new multi-label iterative relational neighbor classifier that employs social context features (**SCRN**). Our classifier incorporates a class propagation probability distribution obtained from instances’ social features, which are in turn extracted from the network topology. This class-propagation probability captures
+the node’s intrinsic likelihood of belonging to each class, and serves as a prior weight for each class when aggregating the neighbors’ class labels in the collective inference procedure. A relaxation labeling approach is used for the collective inference framework.
+
+This material is based upon work supported by the National Science Foundation under Grant Number NSF IIS-08451 and the DARPA CSSG.  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the funding agencies.
